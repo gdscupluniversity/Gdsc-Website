@@ -120,7 +120,7 @@ body{
 }
 
 .footer {
-    background-color: #000;
+    background-color: black;
     color: #fff;
 }
 
@@ -179,9 +179,14 @@ body{
     }
 }
 
+@media screen and (max-width: 600px) {
+    .gdsc-logo {
+        width: 180px;
+    }
+}
 @media screen and (max-width: 400px) {
     .gdsc-logo {
-        width: 190px;
+        width: 160px;
     }
 }
 @media screen and (max-width: 550px) {
