@@ -175,13 +175,13 @@
 
 @media screen and (max-width: 1300px) {
     .gdsc-logo {
-        width: 300px;
+        width: 280px;
     }
 }
 
 @media screen and (max-width: 400px) {
     .gdsc-logo {
-        width: 200px;
+        width: 190px;
     }
 }
 @media screen and (max-width: 550px) {
