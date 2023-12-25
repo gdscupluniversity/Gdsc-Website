@@ -81,7 +81,7 @@
 }
 
 .project-card {
-    margin-top: 110px;
+    margin-top: 115px;
 }
 
 .project-card .card {
@@ -96,6 +96,8 @@
     align-items: center;
     cursor: pointer;
     transition: 0.3s;
+    text-decoration: none;
+    color: #000000;
 }
 
 .project-card-link i {
