@@ -119,6 +119,16 @@
     margin-top: 150px;
 }
 
+.gallery-item .item .card-body{
+    padding: 2px;
+}
+
+.abt-university-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .owl-carousel .card {
     box-shadow: none;
 }
@@ -199,7 +209,11 @@
 }
 
 @media screen and (max-width: 550px) {
-    .container {
-        margin-top: 90px;
+    /* .container {
+        margin-top: 60px;
+    } */
+    .wcarousel {
+        margin-top: 55px;
     }
+
 }
