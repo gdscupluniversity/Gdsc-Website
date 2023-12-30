@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .nav-item {
@@ -79,7 +81,7 @@
 }
 
 .project-card {
-    margin-top: 110px;
+    margin-top: 115px;
 }
 
 .project-card .card {
@@ -94,6 +96,8 @@
     align-items: center;
     cursor: pointer;
     transition: 0.3s;
+    text-decoration: none;
+    color: #000000;
 }
 
 .project-card-link i {
@@ -120,7 +124,7 @@
 }
 
 .footer {
-    background-color: #000;
+    background-color: black;
     color: #fff;
 }
 
@@ -143,28 +147,31 @@
 .footer i:hover {
     color: #686868;
 }
-.container{
+
+.container {
     margin-top: 147px;
     margin-bottom: 50px;
     padding: 0 30px;
-    
+
 }
-.container form{
+
+.container form {
     padding: 0 40px 40px 40px;
     border-radius: 30px;
     box-shadow: 0px 0px 10px #000000;
 }
-.fb-heading{
+
+.fb-heading {
     border-radius: 0px 0px 217px 237px / 0px 0px 150px 150px;
     background-color: blue;
     color: white;
     margin-top: 0;
 
 }
+
 .container form input:focus,
 .container form select:focus,
-.container form textarea:focus
-{
+.container form textarea:focus {
     box-shadow: 0px 0px 5px #000000;
     border-color: transparent;
 }
@@ -175,15 +182,22 @@
 
 @media screen and (max-width: 1300px) {
     .gdsc-logo {
-        width: 300px;
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gdsc-logo {
+        width: 180px;
     }
 }
 
 @media screen and (max-width: 400px) {
     .gdsc-logo {
-        width: 200px;
+        width: 160px;
     }
 }
+
 @media screen and (max-width: 550px) {
     .container {
         margin-top: 90px;
