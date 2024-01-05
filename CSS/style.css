@@ -58,6 +58,10 @@
     margin-top: 90px;
 }
 
+textarea {
+  resize: none;
+}
+
 .events-date {
     background-color: #7d8185;
     width: 35%;
